@@ -1,1 +1,2 @@
-console.log("hello world")
+import * as bootstrap from "bootstrap"
+import * as jquery from "jquery"
