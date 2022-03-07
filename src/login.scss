@@ -1,0 +1,32 @@
+.login-background-color {
+  background-color: #26648B;
+  height: 100vh;
+
+  .backgroun-image {
+    background-image: url("inforeach-login-background.png");
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login-card {
+      width: 40%;
+      padding: 30px;
+    
+      .card-subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+      }
+    
+      .btn {
+        color: $white;
+      }
+    }  
+  }
+}
+

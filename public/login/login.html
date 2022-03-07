@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container-fluid login-background-color">
+      <div class="row">
+        <div class="col-6 backgroun-image"></div>
+        <div class="col-6 center">
+          <div class="card login-card">
+            <div class="card-body">
+              <h5 class="card-title mb-4">SIGN IN</h5>
+              <h6 class="card-subtitle mb-4">We're happy to have you here again!</h6>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label visually-hidden">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Email"
+                  />
+                  <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label visually-hidden">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                </div>
+                <div class="text-center mb-5">
+                  <a class="text-decoration-none" href="#">Forgot your Password?</a>
+                </div>
+                <div class="d-grid gap-2 col-12 mx-auto">
+                  <button type="submit" class="btn btn-primary">Confirm</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
