@@ -25,6 +25,7 @@
     "file-loader": "^6.2.0",
     "postcss-cli": "^9.1.0",
     "postcss-loader": "^6.2.1",
+    "prettier": "2.5.1",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "webpack": "^5.69.1",
