@@ -1,7 +1,7 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 80px;
+  width: 90px;
   background-image: linear-gradient(268.96deg, #1e5679 14%, #26648b 93.83%);
   position: fixed;
   height: 100%;
@@ -23,6 +23,7 @@
   display: block;
   color: #f6f6fa;
   padding: 16px;
+  opacity: 0.5;
   text-decoration: none;
   text-align: center;
 }
@@ -45,13 +46,16 @@
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: white;
   border-radius: 34px 0px 0px 34px;
-  color: white;
+  margin-left: 15px;
+  color: #1e5679;
 }
 
 .sidebar b:hover:not(.active) {
   background-color: #555;
+  border-radius: 34px 0px 34px 34px;
+  margin-left: 15px;
   color: white;
 }
 
